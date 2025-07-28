@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anantam Incorporation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #2c3e50, #3498db);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      animation: fadeInDown 1s ease-out;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #2980b9;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      animation: fadeInUp 1s ease-out;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1587390994531-df6c2452d221') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      text-shadow: 2px 2px 5px #000;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Anantam Incorporation</h1>
+    <p>Wholesale Trading & Distribution of Premium Pulses, Groceries & Edibles</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Quality that Nourishes Life
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Anantam Incorporation is a trusted name in the wholesale and distribution sector, specializing in premium pulses, grocery staples, and food edibles. With a commitment to purity and freshness, we source the finest quality products and ensure timely delivery to retailers, caterers, and businesses across regions. Our aim is to nourish households and communities with products that meet the highest standards of taste and hygiene.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@anantaminc.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <p>Location: India (Add full address here)</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Anantam Incorporation. All rights reserved.
+  </footer>
+</body>
+</html>
